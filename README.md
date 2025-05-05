@@ -1,4 +1,5 @@
-[![banner.png](https://i.postimg.cc/fyZZnKKk/banner.png)](https://postimg.cc/LYyGjjGM)
+![image](https://github.com/user-attachments/assets/0adca19e-49ed-4435-83fa-412ee406f65c)
+
 
 Hello my name is Akhand!
 ================================
