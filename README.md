@@ -4,7 +4,7 @@
 Hello my name is Akhand!
 ================================
 
-Junior Year Undergrad in Computer Sciecne and Engineering at IIT Patna
+Senior Year Undergrad in Computer Sciecne and Engineering at IIT Patna
 --------------------------------------
 <div align="center">
   <a href="https://github.com/piyushsuthar/github-readme-quotes">
@@ -13,6 +13,8 @@ Junior Year Undergrad in Computer Sciecne and Engineering at IIT Patna
 </div>
 
 ###
+
+![snake gif](https://github.com/akhandsinghjr/akhandsinghjr/blob/output/github-snake-dark.svg
 
 <p align="left">Nice to meet you everyone! I’m a junior year pursuing BTech in Computer Science and Engineering at IIT Patna. I will be joining cisco this summer as a Software Engineering Intern. I enjoy random projects at midnight and always love collaboration with a multiskilled team.</p>
 
