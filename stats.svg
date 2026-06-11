@@ -1,11 +1,11 @@
-<svg fill="none" viewBox="0 0 800 160" width="800" height="160" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 220" width="800" height="220" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .wrap {
           width: 800px;
-          height: 160px;
+          height: 220px;
           background: #0d1117;
           font-family: 'Courier New', monospace;
           padding: 20px 40px;
@@ -18,11 +18,11 @@
           text-transform: uppercase;
         }
         .grid {
-          display: flex;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
           gap: 12px;
         }
         .card {
-          flex: 1;
           background: #161b22;
           border: 1px solid #21262d;
           border-radius: 8px;
@@ -32,9 +32,10 @@
           justify-content: center;
         }
         .label {
-          font-size: 11px;
+          font-size: 10.5px;
           color: #8b949e;
           margin-bottom: 4px;
+          white-space: nowrap;
         }
         .value {
           font-size: 20px;
@@ -48,21 +49,40 @@
       <div class="wrap">
         <div class="section-label">// git_stats</div>
         <div class="grid">
+          <!-- Row 1: The Requested Deep Stats -->
           <div class="card">
-            <div class="label">Total Contributions</div>
-            <div class="value"><span>></span> 346</div>
+            <div class="label">Overall Contribs</div>
+            <div class="value"><span>></span> 523</div>
           </div>
           <div class="card">
-            <div class="label">Total Stars Earned</div>
+            <div class="label">Current Year</div>
+            <div class="value"><span>></span> 146</div>
+          </div>
+          <div class="card">
+            <div class="label">Longest Streak</div>
+            <div class="value"><span>></span> 4</div>
+          </div>
+          <div class="card">
+            <div class="label">Current Streak</div>
+            <div class="value"><span>></span> 0</div>
+          </div>
+          
+          <!-- Row 2: Standard GitHub Stats -->
+          <div class="card">
+            <div class="label">Total Stars</div>
             <div class="value"><span>></span> 0</div>
           </div>
           <div class="card">
             <div class="label">Pull Requests</div>
-            <div class="value"><span>></span> 0</div>
+            <div class="value"><span>></span> 7</div>
           </div>
           <div class="card">
-            <div class="label">Public Repositories</div>
+            <div class="label">Public Repos</div>
             <div class="value"><span>></span> 21</div>
+          </div>
+          <div class="card">
+            <div class="label">Followers</div>
+            <div class="value"><span>></span> 8</div>
           </div>
         </div>
       </div>
