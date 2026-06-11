@@ -8,19 +8,7 @@
 
 <img src="stats.svg" width="100%" alt="Stats"/>
 
----
-
-## `// top languages`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=akhandsinghjr&layout=compact&theme=github_dark&hide_border=true&title_color=4ade80&text_color=8b949e&bg_color=0d1117&langs_count=6&card_width=500" height="145"/>
-
-</div>
-
----
-
-## `// contributions`
+<img src="langs.svg" width="100%" alt="Langs"/>
 
 <div align="center">
 
