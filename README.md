@@ -6,17 +6,7 @@
 
 <img src="about.svg" width="100%" alt="About"/>
 
----
-
-## `// stats`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=akhandsinghjr&show_icons=true&theme=github_dark&hide_border=true&title_color=4ade80&icon_color=4ade80&text_color=8b949e&bg_color=0d1117&include_all_commits=true&count_private=true" height="155"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com?user=akhandsinghjr&theme=github-dark-blue&hide_border=true&ring=4ade80&fire=4ade80&currStreakLabel=4ade80&sideNums=8b949e&dates=6e7681&background=0d1117&stroke=21262d" height="155"/>
-
-</div>
+<img src="stats.svg" width="100%" alt="Stats"/>
 
 ---
 
