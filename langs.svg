@@ -1,0 +1,155 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .wrap {
+          width: 800px;
+          height: 200px;
+          background: #0d1117;
+          font-family: 'Courier New', monospace;
+          padding: 20px 40px;
+        }
+        .section-label {
+          font-size: 10px;
+          letter-spacing: 0.15em;
+          color: #4ade80;
+          margin-bottom: 14px;
+          text-transform: uppercase;
+        }
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 12px;
+        }
+        .card {
+          background: #161b22;
+          border: 1px solid #21262d;
+          border-radius: 8px;
+          padding: 14px 16px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 8px;
+        }
+        .name {
+          font-size: 13px;
+          color: #e6edf3;
+          font-weight: 600;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+        .dot {
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+        }
+        .percent {
+          font-size: 11px;
+          color: #8b949e;
+        }
+        .bar-bg {
+          width: 100%;
+          height: 4px;
+          background: #21262d;
+          border-radius: 2px;
+          overflow: hidden;
+        }
+        .bar-fill {
+          height: 100%;
+          border-radius: 2px;
+        }
+      </style>
+      <div class="wrap">
+        <div class="section-label">// top_languages</div>
+        <div class="grid">
+          
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #DA5B0B"></span>
+          Jupyter Notebook
+        </div>
+        <div class="percent">77.8%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 77.8%; background: #DA5B0B"></div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #3178c6"></span>
+          TypeScript
+        </div>
+        <div class="percent">13.0%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 13.0%; background: #3178c6"></div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #e34c26"></span>
+          HTML
+        </div>
+        <div class="percent">5.5%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 5.5%; background: #e34c26"></div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #a91e50"></span>
+          EJS
+        </div>
+        <div class="percent">1.7%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 1.7%; background: #a91e50"></div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #f1e05a"></span>
+          JavaScript
+        </div>
+        <div class="percent">1.1%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 1.1%; background: #f1e05a"></div>
+      </div>
+    </div>
+  
+    <div class="card">
+      <div class="header">
+        <div class="name">
+          <span class="dot" style="background: #3572A5"></span>
+          Python
+        </div>
+        <div class="percent">0.5%</div>
+      </div>
+      <div class="bar-bg">
+        <div class="bar-fill" style="width: 0.5%; background: #3572A5"></div>
+      </div>
+    </div>
+  
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
