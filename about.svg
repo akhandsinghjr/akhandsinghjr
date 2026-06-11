@@ -1,11 +1,11 @@
-<svg fill="none" viewBox="0 0 800 180" width="800" height="180" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 220" width="800" height="220" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         .wrap {
           width: 800px;
-          height: 180px;
+          height: 220px;
           background: #0d1117;
           font-family: 'Courier New', monospace;
           padding: 20px 40px;
@@ -17,31 +17,36 @@
           margin-bottom: 14px;
           text-transform: uppercase;
         }
-        .code-block {
+        .code-container {
           background: #161b22;
           border: 1px solid #21262d;
           border-radius: 8px;
           padding: 16px 20px;
-          font-size: 13px;
-          line-height: 1.7;
+          transition: border-color 0.2s;
         }
-        .kw { color: #ff7b72; }
-        .var { color: #79c0ff; }
-        .str { color: #a5d6ff; }
-        .key { color: #d2a8ff; }
-        .arr { color: #e6edf3; }
-        .comment { color: #6e7681; }
-        .indent { padding-left: 20px; }
+        .code-block {
+          font-size: 13px;
+          color: #e6edf3;
+          line-height: 1.6;
+          white-space: pre;
+        }
+        /* Syntax Highlighting Colors */
+        .keyword { color: #ff7b72; }    /* Red/Pink for keywords like const */
+        .prop { color: #79c0ff; }       /* Light blue for object properties */
+        .string { color: #4ade80; }     /* Using your signature green for strings */
+        .comment { color: #8b949e; }    /* Grey for comments */
+        .punct { color: #e6edf3; }      /* Standard white for punctuation */
       </style>
+      
       <div class="wrap">
         <div class="section-label">// about</div>
-        <div class="code-block">
-          <span class="var">akhand</span> <span class="arr">= {</span><br/>
-          <span class="indent"><span class="key">"school"</span><span class="arr">:</span> <span class="str">"IIT Patna — CSE (2026 Grad)"</span><span class="arr">,</span></span><br/>
-          <span class="indent"><span class="key">"current"</span><span class="arr">:</span> <span class="str">"AMTS @ Salesforce"</span><span class="arr">,</span></span><br/>
-          <span class="indent"><span class="key">"prev"</span><span class="arr">:</span> <span class="str">"SDE Intern @ Cisco"</span><span class="arr">,</span></span><br/>
-          <span class="indent"><span class="key">"builds"</span><span class="arr">:</span> <span class="arr">[</span><span class="str">"random midnight projects"</span><span class="arr">,</span> <span class="str">"multi-skilled teams"</span><span class="arr">]</span></span><br/>
-          <span class="arr">}</span>
+        <div class="code-container">
+          <div class="code-block"><span class="keyword">const</span> profile <span class="punct">=</span> {
+  <span class="prop">currentFocus</span><span class="punct">:</span> <span class="string">"Backend Architecture &amp; Scalable Systems"</span><span class="punct">,</span>
+  <span class="prop">education</span><span class="punct">:</span>    <span class="string">"BTech CSE @ IIT Patna"</span><span class="punct">,</span>
+  <span class="prop">interests</span><span class="punct">:</span>    <span class="punct">[</span><span class="string">"Distributed Systems"</span><span class="punct">,</span> <span class="string">"Quizzing"</span><span class="punct">,</span> <span class="string">"Software Eng"</span><span class="punct">],</span>
+  <span class="prop">fuel</span><span class="punct">:</span>         <span class="string">"Coffee"</span> <span class="comment">/* lots of it */</span>
+}<span class="punct">;</span></div>
         </div>
       </div>
     </div>
