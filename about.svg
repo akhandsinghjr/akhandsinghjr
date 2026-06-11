@@ -37,7 +37,7 @@
         <div class="section-label">// about</div>
         <div class="code-block">
           <span class="var">akhand</span> <span class="arr">= {</span><br/>
-          <span class="indent"><span class="key">"school"</span><span class="arr">:</span> <span class="str">"IIT Patna — CSE (Senior Year)"</span><span class="arr">,</span></span><br/>
+          <span class="indent"><span class="key">"school"</span><span class="arr">:</span> <span class="str">"IIT Patna — CSE (2026 Grad)"</span><span class="arr">,</span></span><br/>
           <span class="indent"><span class="key">"current"</span><span class="arr">:</span> <span class="str">"AMTS @ Salesforce"</span><span class="arr">,</span></span><br/>
           <span class="indent"><span class="key">"prev"</span><span class="arr">:</span> <span class="str">"SDE Intern @ Cisco"</span><span class="arr">,</span></span><br/>
           <span class="indent"><span class="key">"builds"</span><span class="arr">:</span> <span class="arr">[</span><span class="str">"random midnight projects"</span><span class="arr">,</span> <span class="str">"multi-skilled teams"</span><span class="arr">]</span></span><br/>
