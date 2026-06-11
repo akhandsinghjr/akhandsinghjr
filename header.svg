@@ -1,0 +1,76 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        .wrap {
+          width: 800px;
+          height: 200px;
+          background: #0d1117;
+          font-family: 'Courier New', monospace;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0 40px;
+          border-bottom: 1px solid #21262d;
+        }
+        .prompt {
+          font-size: 12px;
+          color: #4ade80;
+          margin-bottom: 8px;
+          letter-spacing: 0.05em;
+        }
+        .name {
+          font-size: 42px;
+          font-weight: 700;
+          color: #e6edf3;
+          letter-spacing: -0.02em;
+          line-height: 1;
+          margin-bottom: 10px;
+        }
+        .name span { color: #4ade80; }
+        .sub {
+          font-size: 14px;
+          color: #8b949e;
+          letter-spacing: 0.03em;
+          margin-bottom: 16px;
+        }
+        .tags {
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+        }
+        .tag {
+          font-size: 11px;
+          padding: 3px 10px;
+          border-radius: 99px;
+          border: 1px solid #30363d;
+          color: #8b949e;
+          background: #161b22;
+        }
+        .tag.green {
+          border-color: rgba(74,222,128,0.35);
+          color: #4ade80;
+          background: rgba(74,222,128,0.07);
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+        .cursor {
+          display: inline-block;
+          animation: blink 1s step-end infinite;
+          color: #4ade80;
+        }
+      </style>
+      <div class="wrap">
+        <div class="prompt">~/akhandsinghjr <span class="cursor">█</span></div>
+        <div class="name">Akhand Singh<span>.</span></div>
+        <div class="sub">BTech CSE · IIT Patna · Senior Year</div>
+        <div class="tags">
+          <span class="tag green">● open to work</span>
+          <span class="tag">midnight coder</span>
+          <span class="tag">systems &amp; software</span>
+          <span class="tag">collaborator</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
