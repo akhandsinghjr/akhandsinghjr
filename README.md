@@ -4,7 +4,7 @@
 
 <img src="experience.svg" width="100%" alt="Experience"/>
 
-<!-- <img src="about.svg" width="100%" alt="About"/> -->
+<img src="about.svg" width="100%" alt="About"/>
 
 ---
 
