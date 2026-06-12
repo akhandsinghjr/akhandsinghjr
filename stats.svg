@@ -52,11 +52,11 @@
           <!-- Row 1: The Requested Deep Stats -->
           <div class="card">
             <div class="label">Overall Contribs</div>
-            <div class="value"><span>></span> 526</div>
+            <div class="value"><span>></span> 527</div>
           </div>
           <div class="card">
             <div class="label">Current Year</div>
-            <div class="value"><span>></span> 149</div>
+            <div class="value"><span>></span> 150</div>
           </div>
           <div class="card">
             <div class="label">Longest Streak</div>
