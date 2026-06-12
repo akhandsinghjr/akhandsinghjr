@@ -7,48 +7,18 @@
           width: 800px;
           height: 200px;
           background: #0d1117;
-
-
-
-
-
-
-
-
-
-
-
-
           font-family: 'Courier New', monospace;
           display: flex;
           flex-direction: column;
           justify-content: center;
           padding: 0 40px;
           border-bottom: 1px solid #21262d;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
         .prompt {
           font-size: 12px;
           color: #4ade80;
           margin-bottom: 8px;
           letter-spacing: 0.05em;
-@@ -26,50 +55,53 @@
           color: #e6edf3;
           letter-spacing: -0.02em;
           line-height: 1;
@@ -84,7 +54,6 @@
           display: inline-block;
           animation: blink 1s step-end infinite;
           color: #4ade80;
-
         }
       </style>
       <div class="wrap">
@@ -95,8 +64,6 @@
           <span class="tag green">backend developer</span>
           <span class="tag">systems &amp; software</span>
           <span class="tag">quizzer</span>
-
-
         </div>
       </div>
     </div>
