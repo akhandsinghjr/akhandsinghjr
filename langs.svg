@@ -76,10 +76,10 @@
           <span class="dot" style="background: #DA5B0B"></span>
           Jupyter Notebook
         </div>
-        <div class="percent">77.8%</div>
+        <div class="percent">77.0%</div>
       </div>
       <div class="bar-bg">
-        <div class="bar-fill" style="width: 77.8%; background: #DA5B0B"></div>
+        <div class="bar-fill" style="width: 77.0%; background: #DA5B0B"></div>
       </div>
     </div>
   
@@ -89,10 +89,10 @@
           <span class="dot" style="background: #3178c6"></span>
           TypeScript
         </div>
-        <div class="percent">13.0%</div>
+        <div class="percent">13.8%</div>
       </div>
       <div class="bar-bg">
-        <div class="bar-fill" style="width: 13.0%; background: #3178c6"></div>
+        <div class="bar-fill" style="width: 13.8%; background: #3178c6"></div>
       </div>
     </div>
   

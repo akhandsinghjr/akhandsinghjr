@@ -52,11 +52,11 @@
           <!-- Row 1: The Requested Deep Stats -->
           <div class="card">
             <div class="label">Overall Contribs</div>
-            <div class="value"><span>></span> 531</div>
+            <div class="value"><span>></span> 538</div>
           </div>
           <div class="card">
             <div class="label">Current Year</div>
-            <div class="value"><span>></span> 154</div>
+            <div class="value"><span>></span> 161</div>
           </div>
           <div class="card">
             <div class="label">Longest Streak</div>
@@ -78,7 +78,7 @@
           </div>
           <div class="card">
             <div class="label">Public Repos</div>
-            <div class="value"><span>></span> 21</div>
+            <div class="value"><span>></span> 22</div>
           </div>
           <div class="card">
             <div class="label">Followers</div>
